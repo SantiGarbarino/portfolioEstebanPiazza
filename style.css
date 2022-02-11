@@ -11,7 +11,17 @@ a:hover{color:#fff}
 
 
 /*carrousel*/
+.portada {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
 
+/* Disable grayscale on hover */
+.portada img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
 
 
 

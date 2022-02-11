@@ -6,3 +6,35 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+a{color: grey}
+a:hover{color:#fff}
+
+
+/*carrousel*/
+
+
+
+
+
+.square-holder {
+    padding:30px;
+    border: 1px solid #cecece;
+    align-items: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    background-color:#f1f1f1;
+    min-height:200px
+  }
+  
+  .square-holder img {
+    max-width:100%;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+    max-height: 135px;
+  }
+  
+  .square-holder:hover img{
+    filter:none;
+  }

@@ -48,3 +48,11 @@ a:hover{color:#fff}
   .square-holder:hover img{
     filter:none;
   }
+
+  .tiktok{
+    fill: orange;
+      stroke: black;
+      stroke-width: 10px; 
+      width: 10px;
+      height: 10px;
+  }
